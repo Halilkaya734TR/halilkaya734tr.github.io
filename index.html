@@ -7,12 +7,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="icon" href="images/icon.jpeg" type="image/jpeg">
     <style>
+        html,
         body
         {
             margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body
+        {
+            min-height: 100dvh;
             background-image: url('images/background.gif');
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: center;
+            background-color: #1b0e0e;
+            overflow-x: hidden;
         }  
 
         .border
@@ -131,7 +143,7 @@
         {
             body
             {
-                min-height: 100vh;
+                min-height: 100dvh;
                 background-position: center;
                 display: flex;
                 align-items: center;
